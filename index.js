@@ -1,0 +1,7 @@
+var scottsafety = {
+	
+	autoPlayTimerStart : function () {
+		
+	}
+	
+}

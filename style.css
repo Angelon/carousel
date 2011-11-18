@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0 solid #000;
+}
+
+body {
+	
+}
+
+#header-container {
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #000000;
+}
+
+#top-container {
+	height: 500px;
+}
+
+#hero-container {
+	height: 350px;
+	width:1000px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	border: 1px solid #CCCCCC;
+}
+
+.hero-content-container {
+	height: 350px;
+	width: inherit;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+	.hero-content-container .grouping-wrapper {
+		height: inherit;
+		width: inherit;
+		margin: 0px auto 0px auto;
+		position: relative;
+	}
+
+	.hero-content-container .hero-title-container {
+		position: absolute;
+		top: 200px;
+		left: 150px;
+	}
+	
+	.hero-content-container .hero-image-container {
+		position: absolute;
+		top: 0px;
+		left: 500px;
+		width: 500px;
+		height: 350px;
+	}
+	
+		.hero-content-container .hero-image-container .grouping-wrapper {
+			position: relative;
+			height: inherit;
+			width: inherit;
+		}
+	
+		.hero-content-container .hero-image-container .grouping-wrapper .image-fore{
+			width: 250px;
+			height: 250px;
+			position: absolute;
+			bottom: 0px;
+			right: 210px;
+			background-color: #FFFFFF;
+			border: 1px solid #000000;
+		}
+		
+		.hero-content-container .hero-image-container .grouping-wrapper .image-back{
+			width: 300px;
+			height: 300px;
+			position: absolute;
+			bottom: 0px;
+			right: 120px;
+			background-color: #FFFFFF;
+			border: 1px dashed #000000;
+		}
+
+#red-bar {
+	height: 125px;
+	background-color: red;
+}
+
+	#red-bar-content-container {
+		height: inherit;
+		width: 1000px;
+		margin: 0px auto 0px auto;
+		position: relative;
+	}
+	
+	#red-bar-content-container .play-button{
+		text-align: center;
+		display: block;
+		position: absolute;
+		top: 50px;
+		right: 100px;
+		width: 100px;
+		height: 25px;
+		border: dashed 1px #000000;
+	}
